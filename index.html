@@ -4,230 +4,248 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travellex</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Foodie</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <header>
         <div class="logo">
-            <img src="logo.png"alt="logo">
+            <img src="logo.png" alt="logo">
         </div>
+        <!-- logo -->
         <div class="navbar">
-            <a href="#home">Home </a>
-            <a href="#about">About</a>
-            <a href="#features">Features</a>
-            <a href="#news">News</a>
-            <a href="#contacts">Contacts</a>
+            <a href="#perks"><p>Perks</p></a>
+            <a href="#about"><p>About</p></a>
+            <a href="#menu"><p>Menu</p></a>
+            <a href="#faq"><p>FAQ</p></a>
+            <a href="#contact-us"><p>Contact us</p></a>
         </div>
-        <div class="btn-navbar">
-            <button class="register">Register</button>
-    
+        <div class="search-bar">
+            <input type="text" placeholder="Search here">
         </div>
-    </header> 
+        <div class="cart">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+              </svg>
+        </div>
+    </header>
     <section>
-        <div class="home-para1" id="home">
-            <div class="home-para1-left">
-                <div class="home-para1-writtenpart">
-                    <h1>EXPLORE YOUR </h1>
-                    <h2>New Destination</h2>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi minus iusto sequi molestias cupiditate alias officiis pariatur magnam blanditiis doloremque quod, earum commodi id. Maiores quos officia assumenda aliquid eaque?</p>
-
-                </div>
-                <div class="home-para1-buttons">
-                    <button class="home-para1-button1">Lets explore</button>
+        <div class="home-page">
+            <div class="home-page-written">
+                <h1>Eat today</h1>
+                <h2>Live another day</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit modi explic abo qui ex.</p>
+                <input type="text" placeholder="Type location">
+                <div class="home-page-buttons">
+                    <button class="delivery">DELIVERY</button>
+                    <p>or</p>
+                    <button class="pick-up">PICK UP</button>
                 </div>
             </div>
-            <div class="home-para1-picture">
-                <img src="home.png">
+            <div class="home-page-image">
+                <img src="section1.png">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="perks" id="perks">
+            <div class="perks-card1">
+                <div class="perks-card1-top">
+                    <div class="card1-top-image">
+                        <svg>
+                            <rect rx="10" ry="10"/>
+                        </svg>
+                        <img src="food-delivery.png">
+                    </div>
+                    <div class="card1-top-head">
+                        <p>Fastest Delivery</p>
+                    </div>
+                </div>
+                <div class="perks-card1-bottom">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus assumenda nostrum voluptatum officiis? Nulla, saepe.</p>
+                </div>
+            </div>
+            <div class="perks-card2">
+                <div class="perks-card2-top">
+                    <div class="card2-top-image">
+                        <svg>
+                            <rect rx="20" ry="20"/>
+                        </svg>
+                        <img src="fast-food.png">
+                    </div>
+                    <div class="card2-top-head">
+                        <p>So Much to Choose From</p>
+                    </div>
+                </div>
+                <div class="perks-card2-bottom">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus assumenda nostrum voluptatum officiis? Nulla, saepe.</p>
+                </div>
+            </div>
+            <div class="perks-card3">
+                <div class="perks-card3-top">
+                    <div class="card3-top-image">
+                        <svg>
+                            <rect rx="20" ry="20"/>
+                        </svg>
+                        <img src="offer.png">
+                    </div>
+                    <div class="card3-top-head">
+                        <p>Best Offers In Town!</p>
+                    </div>
+                </div>
+                <div class="perks-card3-bottom">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus assumenda nostrum voluptatum officiis? Nulla, saepe.</p>
+                </div>
             </div>
         </div>
     </section>
     <section>
         <div class="about" id="about">
-            <div class="about-img">
-                <img src="about.png">
+            <div class="about-image">
+                <img src="section3.png" alt="">
             </div>
             <div class="about-written">
-                <h2>Why choose us?</h2>
-                <div class="about-written-first">
-                    <div class="about-written-firstimg">
-                        <svg height="100" width="100">
-                            <circle cx="50" r="40" style="fill:plum"/>
-                        </svg>
-                        <img src="idea.png">
-                    </div>
-                    <div class="about-written-first-written">
-                        <h2>World Wide Connect</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing  quia? impedit! Tempora.</p>
-                        
-                    </div>
-                </div>
-                <div class="about-written-second">
-                    <div class="about-written-secondimg">
-                        <svg height="100" width="100">
-                            <circle cx="50" r="40" style="fill:tomato"/>
-                        </svg>
-                        <img src="tourguide.png">
-                    </div>
-                    <div class="about-written-second-written">
-                        <h2>Expert Tour Guide</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit quaerat impedit! Tempora.</p>
-                        
-                    </div>
-                </div>
-                <div class="about-written-third">
-                    <div class="about-written-thirdimg">
-                        <svg height="100" width="100">
-                            <circle cx="50" r="40" style="fill:plum"/>
-                        </svg>
-                        <img src="discount.png">
-                    </div>
-                    <div class="about-written-third-written">
-                        <h2>A Lot of Discout</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur tia nobis quia? Reiciendis  Tempora.</p>
-                        
-                    </div>
-                </div>
-
-               
+                <p class="orange">Our popular Restaurants</p>
+                <p class="huge">1000+</p>
+                <p class="big">Our delicious food</p>
+                <p class="normal">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae optio, repellat dolore dolorem quis iusto officia veniam, esse voluptatem voluptates sit dignissimos, aliquid fugit enim.</p>
+                <button>EXPLORE MENU</button>
             </div>
         </div>
     </section>
-    <section class="features">
-        <h1>Featured Destrination</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, fure ea perspiciatis.</p>
-        <div class="about-us-cards" id ="about-us-cards">
-           <div class="about-us-card1">
-                <div class="col-md-4">
-                    <div class="feature-box" >
-                         <div class="feature-img">
-                            <img src="1.png">
-                            <div class="price">
-                                <p>78$</p>
-                            </div>
-                            <div class="move">
-                                <p>o</p>
-                            </div>
-                        </div>
+    <section>
+        <div class="menu" id="menu">
+            <div class="card1 card">
+                <div class="card1-image card-image">
+                    <img src="card4.jpg" alt="photo">
+                </div>
+                <div class="card1-name name">
+                    <div class="card1-name-written card-written">
+                        <p class="hotel-name">Indian Cuisine Restaurant</p>
+                        <p class="hotel-speciality">(Indian Varities)</p>
+                        <p class="hotel-address">Juhu,Mumbai</p>
                     </div>
-                    <div class="feature-details"><h4>TURKEY</h4>
-                        
-                            <i >Los Angeles</i>
-                            <i>4 days</i>
-                            <i >3 Night</i>
-                        
+                    <div class="card1-name-rating rating">
+                        <div class="card1-name-rating-star star">
+                            <img src="star.png" alt="star">
+                        </div>
+                        <div class="card1-name-rating-rates">
+                            <p>5/5</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="about-us-card2">
-                <div class="col-md-4">
-                    <div class="feature-box" >
-                        <div class="feature-img">
-                            <img src="1.png">
-                            <div class="price">
-                                <p>78$</p>
-                            </div>
-                        </div>
+            <div class="card2 card">
+                <div class="card2-image card-image">
+                    <img src="card2.jpg" alt="photo">
+                </div>
+                <div class="card2-name name">
+                    <div class="card2-name-written card-written">
+                        <p class="hotel-name">Indian Cuisine Restaurant</p>
+                        <p class="hotel-speciality">(Indian Varities)</p>
+                        <p class="hotel-address">Juhu,Mumbai</p>
                     </div>
-                    <div class="feature-details"><h4>TURKEY</h4>
-                        
-                            <i >Los Angeles</i>
-                            <i>4 days</i>
-                            <i >3 Night</i>
-                        
+                    <div class="card2-name-rating rating">
+                        <div class="card2-name-rating-star star">
+                            <img src="star.png" alt="star">
+                        </div>
+                        <div class="card2-name-rating-rates">
+                            <p>5/5</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="about-us-card3">
-                <div class="col-md-4">
-                    <div class="feature-box" >
-                        <div class="feature-img">
-                            <img src="1.png">
-                            <div class="price">
-                                <p>78$</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="feature-details"><h4>TURKEY</h4>
-                        
-                            <i >Los Angeles</i>
-                            <i>4 days</i>
-                            <i >3 Night</i>
-                        
-                    </div>
+            <div class="card3 card">
+                <div class="card3-image card-image">
+                    <img src="card3.jpg" alt="photo">
                 </div>
-            </div>
-            <div class="about-us-card4">
-                <div class="col-md-4">
-                    <div class="feature-box" >
-                         <div class="feature-img">
-                            <img src="1.png">
-                            <div class="price">
-                                <p>78$</p>
-                            </div>
-                        </div>
+                <div class="card3-name name">
+                    <div class="card3-name-written card-written">
+                        <p class="hotel-name">Indian Cuisine Restaurant</p>
+                        <p class="hotel-speciality">(Indian Varities)</p>
+                        <p class="hotel-address">Juhu,Mumbai</p>
                     </div>
-                    <div class="feature-details"><h4>TURKEY</h4>
-                        
-                            <i >Los Angeles</i>
-                            <i>4 days</i>
-                            <i >3 Night</i>
-                        
+                    <div class="card3-name-rating rating">
+                        <div class="card3-name-rating-star star">
+                            <img src="star.png" alt="star">
+                        </div>
+                        <div class="card3-name-rating-rates">
+                            <p>5/5</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
-
-
     </section>
-    <section class="news">
-      <div class="banner-highlights" id="news">
-          
-              <div class="new-write">
-                  <h1>Sign up for weekly newsletter</h1>
-                  <div class="new-img"><img src="back2.png" height="350px"></div>
-              </div>
-          </div>
-      </div>
-
-    </section>
-    
-        
-         <footer>
-            <div class="footer" id="footer">
-                <div class="footer-column1">
-                    <img src="logo.png">
-    
-                </div>
-                <div class="footer-column2">
-                    <h2>PRODUCT</h2>
-                    <uL>
-                        <li>Inspiration</li>
-                        <li>Blocks</li>
-                        <li>Templates</li>
-                        <li>Universe</li>
-                    </uL>
-                </div>
-                <div class="footer-column3">
-                    <h2>COMPANY</h2>
-                    <a href="#about">About</a><br>
-                    <a href="#contact">Contacts</a><br>
-                    <a href="#blog">Blog</a><br>
-                    <a href="#carrer">Career</a>
-                    
-                </div>
-                <div class="footer-column4">
-                    <h2>CONTACT US</h2>
-                    <ul  >
-                        <li>travell20@gmail.com</li>
-                    <li>987654321</li>
-                    </ul>
-                    
-    
-    
-                </div>
+    <section>
+        <div class="faq" id="faq">
+            <p class="headfaq">Frequently asked Questions</p>
+            <div class="question1">
+                <p class="question">I got the wrong food what should I do?</p>
+                <p class="answer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio aut iste asperiores? Suscipit, ut facere numquam asperiores qui magni illum exercitationem repellendus necessitatibus, aut ipsum, mollitia voluptate quasi doloremque! Impedit.</p>
             </div>
-        </footer>
-</body> 
+            <hr>
+            <div class="question2">
+                <p class="question">I got the wrong food what should I do?</p>
+                <p class="answer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio aut iste asperiores? Suscipit, ut facere numquam asperiores qui magni illum exercitationem repellendus necessitatibus.</p>
+            </div>
+            <hr>
+            <div class="question3">
+                <p class="question">I got the wrong food what should I do?</p>
+                <p class="answer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio aut iste asperiores? Suscipit, ut facere numquam asperiores qui magni illum exercitationem repellendus necessitatibus, aut ipsum, mollitia voluptate quasi doloremque! Impedit.</p>
+            </div>
+            <hr>
+            <div class="question4">
+                <p class="question">I got the wrong food what should I do?</p>
+                <p class="answer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio aut iste asperiores? Suscipit, ut facere numquam asperiores qui magni illum exercitationem repellendus necessitatibus, aut ipsum, mollitia voluptate quasi doloremque! Impedit.</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="contact-us" id="contact-us">
+            <div class="subscription-box">
+                <p>Be our member and get discount upto 50%</p>
+                <input type="text" placeholder="Enter your email">
+                <input type="submit" value="SIGN IN">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="footer-column1">
+                <img src="logo.png" alt="logo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="footer-column2">
+                <h2>Support</h2>
+                <a href="#about-us">Account</a>
+                <br>
+                <a href="#partner">Support center</a>
+                <br>
+                <a href="#History">Feedback</a>
+                <br>
+                <a href="#services">Accebility</a>
+                <br>
+            </div>
+            <div class="footer-column3">
+                <h2>Our Menu</h2>
+                <a href="#support">Special</a>
+                <br>
+                <a href="#History">Popular</a>
+                <br>
+                <a href="#services">Categories</a>
+                <br>
+            </div>
+            <div class="footer-column4">
+                <h2>Get in touch</h2>
+                <br>
+                <a>Lorem ipsum dolor sit amet.</a>
+                <br>
+                <a>xyz@gmail.com</a>
+                <br>
+                <a>+214 495 5626</a>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>
