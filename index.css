@@ -34,7 +34,7 @@ header{
     margin-left: 25px;
     font-weight: 600;
 }
-.navbar a :hover{
+.navbar a:hover{
     color: var(--orange);
 }
 input[type=text]{
@@ -168,7 +168,7 @@ button.pick-up{
 .perks{
     display: flex;
     margin-left: 100px;
-    margin-top: 100px;
+    padding-top: 100px;
     margin-bottom: 100px;
 }
 .perks-card1,.perks-card2,.perks-card3{
@@ -191,11 +191,10 @@ button.pick-up{
 }
 .about-written{
     margin-left: 150px;
-    margin-top: 60px;
+    padding-top: 60px;
 }
 .about-image img{
     width: 600px;
-    margin-bottom: 100px;
 }
 p.orange{
     font-size: 20px;
@@ -235,10 +234,10 @@ p.normal{
     margin: 0px;
 }
 .menu,.menu1{
-    margin-top: 30px;
+    padding-top: 130px;
     display: flex;
     width: 900px;
-    margin-left: 120px;
+    margin-left: 80px;
 }
 p.hotel-name{
     font-size: 20px;
@@ -263,7 +262,7 @@ p.hotel-address{
   box-shadow:         3px 3px 50px 6px #ccc;
   width: 300%;
   margin-left: 50px;
-  padding: 10px;
+  padding: 20px;
 }
 p.headfaq{
     font-size: 50px;
@@ -281,7 +280,7 @@ p.answer{
 .faq{
     width: 700px;
     margin-left: 300px;
-    margin-top: 150px;
+    padding-top: 150px;
     margin-bottom: 100px;
 }
 .subscription-box p{
